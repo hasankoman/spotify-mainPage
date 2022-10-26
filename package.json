@@ -1,18 +1,38 @@
 {
   "name": "spotify-project",
+  "homepage": "http://hasankoman.github.io/spotify-mainPage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-hook/window-size": "^3.0.7",
+    "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "dominant-color": "^0.0.1",
+    "image-palette-dominant": "^1.0.0",
+    "plotly.js": "^2.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-plotly.js": "^2.5.1",
+    "react-range": "^1.8.14",
+    "react-redux": "^8.0.2",
+    "react-resizable": "^3.0.4",
     "react-scripts": "5.0.1",
+    "react-scrollbar": "^0.5.6",
+    "react-split": "^2.0.14",
+    "react-tooltip": "^4.2.21",
+    "react-use": "^17.4.0",
+    "react-window-size": "^1.2.2",
+    "resize-event": "^2.0.0",
+    "use-element-size": "^1.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +54,27 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "autoprefixer": "^10.4.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.16",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.1.8",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
   }
 }
